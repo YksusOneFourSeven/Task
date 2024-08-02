@@ -1,0 +1,33 @@
+[
+    {
+        "model": "app.product",
+        "pk": 1,
+        "fields": {
+            "name": "Product 1",
+            "description": "Description for product 1",
+            "base_price": "10.00",
+            "sort_order": 1
+        }
+    },
+    {
+        "model": "app.image",
+        "pk": 1,
+        "fields": {
+            "product": 1,
+            "file": "path/to/image1.jpg",
+            "caption": "Image 1",
+            "sort_order": 1
+        }
+    },
+    {
+        "model": "app.parameter",
+        "pk": 1,
+        "fields": {
+            "product": 1,
+            "name": "Color",
+            "value": "Red",
+            "price": "0.00",
+            "sort_order": 1
+        }
+    }
+]
